@@ -1,6 +1,6 @@
 # BaseDAO
 
-##Personal Introduction
+## Personal Introduction
 
 My name is Christopher Dixon. I am a full stack web3 developer specializing in solidity, react and their surrounding technologies.
 I have experience with technologies like Truffle, Remix and the OpenZeppelin SDK as well as NODE.js, Web3.js and
@@ -8,29 +8,31 @@ the MERN stack. I am the lead developer for the meToken smart contract set as we
 a 1.5 version update that provided a speed boost to the website through the use of an AWS based Express.js/ MongoDB set up that acts as both a data buffer for the front end
 and a email notification server that alerts a user whenever their meToken is purchased or sold.
 
-##Description
+## Description
 
 This contract is designed as a base contract for use in building out more complex DAOs.
 It is built using two contracts from the Open Zeppelin smart-contract library:
 Ownable.sol && IERC20.sol.
 
-######This contract is built with two goals in mind:
+###### This contract is built with two goals in mind:
 
 1. The DAO should be capable of accepting and distributing both ETH and ERC20 tokens.
 
 2. The DAO will be built to inspire future Non-Token-Based Governance type DAO's
 
-##Time-Frame
+## Time-Frame
 
 8 hours
 
-##Components
+## Components
+
 Truffle - Provides a framework for developing EVM based Smart-Contracts
 Open-Zeppelin's Ownable.sol - Provides simple ownership logic for a smart-contract
 Open-Zeppelin's IERC20.sol - provides a smart-contract with a basic interface for interacting with ERC20 type tokens
 BaseDAO.sol - A Smart-contract that allows for an organization structure where organization members can vote on who is or isn't a member as well as what to do with the organization's funds
 
-##Closing Notes
+## Closing Notes
+
 This Smart-Contract was developed as part of a dOrg activation challenge and is therefore VERY minimal.
 The BaseDao was built to be expanded upon by others who wish to develop their own Non-Token-Based Governance DAOs.
 
