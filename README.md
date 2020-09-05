@@ -4,7 +4,9 @@
 
 My name is Christopher Dixon. I am a full stack web3 developer specializing in solidity, react and their surrounding technologies.
 I have experience with technologies like Truffle, Remix and the OpenZeppelin SDK as well as NODE.js, Web3.js and
-the MERN stack. I am the lead developer for the meToken smart contract set as well as its react based dApp StakeOnMe.com where we recently released
+the MERN stack.
+
+I am the lead developer for the meToken smart contract set as well as its react based dApp https://stakeonme.com where we recently released
 a 1.5 version update that provided a speed boost to the website through the use of an AWS based Express.js/ MongoDB set up that acts as both a data buffer for the front end
 and a email notification server that alerts a user whenever their meToken is purchased or sold.
 
