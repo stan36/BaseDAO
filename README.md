@@ -50,3 +50,7 @@ A Tokenomics incentive model was purposefully left out of this DOA to keep it as
 In future updates to this contract I would like to implement SafeMath into its operations to ensure we do not encounter calculation overflow problems.
 
 **To use BaseDAO.sol in your own project clone this repository and run npm install.**
+
+### proposal link:
+
+https://alchemy-xdai.herokuapp.com/dao/0x94a587478c83491b13291265581cb983e7feb540/proposal/0xd8b061e829f5772c6199e403f63f255a0a671d21b360ab56aabb349176f33f18
