@@ -14,7 +14,7 @@ This contract is designed as a base contract for use in building out more comple
 It is built using two contracts from the Open Zeppelin smart-contract library:
 Ownable.sol && IERC20.sol.
 
-###### This contract is built with two goals in mind:
+### This contract is built with two goals in mind:
 
 1. The DAO should be capable of accepting and distributing both ETH and ERC20 tokens.
 
@@ -27,8 +27,11 @@ Ownable.sol && IERC20.sol.
 ## Components
 
 Truffle - Provides a framework for developing EVM based Smart-Contracts
+
 Open-Zeppelin's Ownable.sol - Provides simple ownership logic for a smart-contract
+
 Open-Zeppelin's IERC20.sol - provides a smart-contract with a basic interface for interacting with ERC20 type tokens
+
 BaseDAO.sol - A Smart-contract that allows for an organization structure where organization members can vote on who is or isn't a member as well as what to do with the organization's funds
 
 ## Closing Notes
