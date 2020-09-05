@@ -45,7 +45,7 @@ In this spirit I have developed certain functions in such a way that they may be
 The _addMember_ function can easily be called in other ways by a contract that inherits the BaseDao's functionality while the _createProposal_ and _executeVote_
 functions where designed so that any number of other _propCodes_ and _propCode logic_ could be added to the contract itself.
 
-A Tokenomics incentive model was purposefully left out of this DOA to keep it as minimal as possible, though one could easily be added with additional logic.
+A Tokenomics incentive model was purposefully left out of this DAO to keep it as minimal as possible, though one could easily be added with additional logic.
 
 In future updates to this contract I would like to implement SafeMath into its operations to ensure we do not encounter calculation overflow problems.
 
