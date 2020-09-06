@@ -96,6 +96,7 @@ A struct for a specific users vote information
 **/
      function addMember(address _newMem) public onlyOwner {
        memberCount++;
+       members[_newMem] = true;
        emit NewMember(_newMem);
      }
 
@@ -268,7 +269,7 @@ A struct for a specific users vote information
                      /**
                      Additional proposal code logic could be added here to give the DAO more functionality
                      **/
-                     
+
                      ///mark the proposal as executed and passed
                      p.executed = true;
                      p.proposalPassed = true;
